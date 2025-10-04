@@ -1,0 +1,173 @@
+2025-09-20 17:42:06,089 - login_system - ERROR - Connection test failed: HTTPSConnectionPool(host='nhdwylbgcwrvbillwouy.supabase.co', port=443): Max retries exceeded with url: /rest/v1/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f78261a2cf0>: Failed to resolve 'nhdwylbgcwrvbillwouy.supabase.co' ([Errno -2] Name or service not known)"))
+2025-09-20 18:08:16,795 - login_system - INFO - Supabase connection successful
+2025-09-20 20:13:42,917 - __main__ - INFO - Supabase Auth failed for aryavartboi@gmail.com, trying User table
+2025-09-20 20:13:43,061 - __main__ - ERROR - User table query failed: 404
+2025-09-20 20:17:21,843 - __main__ - INFO - Supabase Auth failed for aryavartboi@gmail.com, trying User table
+2025-09-20 20:17:21,930 - __main__ - INFO - Trying table 'User': Status 404
+2025-09-20 20:17:21,930 - __main__ - INFO - Table 'User' not found (404), trying next...
+2025-09-20 20:17:22,008 - __main__ - INFO - Trying table 'user': Status 404
+2025-09-20 20:17:22,008 - __main__ - INFO - Table 'user' not found (404), trying next...
+2025-09-20 20:17:22,085 - __main__ - INFO - Trying table 'users': Status 404
+2025-09-20 20:17:22,086 - __main__ - INFO - Table 'users' not found (404), trying next...
+2025-09-20 20:17:22,210 - __main__ - INFO - Supabase Auth failed for aryavartboi@gmail.com, trying User table
+2025-09-20 20:17:22,215 - __main__ - INFO - Trying table 'Users': Status 200
+2025-09-20 20:17:22,216 - __main__ - INFO - Table 'Users' query successful, found 0 users
+2025-09-20 20:17:22,216 - __main__ - WARNING - No user found with email: aryavartboi@gmail.com
+2025-09-20 20:17:22,335 - __main__ - INFO - Trying table 'User': Status 404
+2025-09-20 20:17:22,336 - __main__ - INFO - Table 'User' not found (404), trying next...
+2025-09-20 20:17:22,427 - __main__ - INFO - Trying table 'user': Status 404
+2025-09-20 20:17:22,427 - __main__ - INFO - Table 'user' not found (404), trying next...
+2025-09-20 20:17:22,502 - __main__ - INFO - Trying table 'users': Status 404
+2025-09-20 20:17:22,503 - __main__ - INFO - Table 'users' not found (404), trying next...
+2025-09-20 20:17:22,580 - __main__ - INFO - Trying table 'Users': Status 200
+2025-09-20 20:17:22,581 - __main__ - INFO - Table 'Users' query successful, found 0 users
+2025-09-20 20:17:22,581 - __main__ - WARNING - No user found with email: aryavartboi@gmail.com
+2025-09-20 20:23:57,267 - __main__ - INFO - Supabase Auth failed for aryavartboi@gmail.com, trying User table
+2025-09-20 20:23:57,358 - __main__ - INFO - 🔍 DEBUG: Total users in 'Users' table: 0
+2025-09-20 20:23:57,475 - __main__ - INFO - 🔍 Searching for email: 'aryavartboi@gmail.com'
+2025-09-20 20:23:57,478 - __main__ - INFO -    Query URL: https://vavnvybkayszsnwgzcku.supabase.co/rest/v1/Users
+2025-09-20 20:23:57,478 - __main__ - INFO -    Query params: {'email': 'eq.aryavartboi@gmail.com', 'select': '*'}
+2025-09-20 20:23:57,478 - __main__ - INFO -    Response status: 200
+2025-09-20 20:23:57,478 - __main__ - INFO -    Found 0 matching users
+2025-09-20 20:23:57,478 - __main__ - WARNING - ❌ No user found with EXACT email: 'aryavartboi@gmail.com'
+2025-09-20 20:23:57,478 - __main__ - INFO - 💡 Check for:
+2025-09-20 20:23:57,478 - __main__ - INFO -    - Extra spaces in email
+2025-09-20 20:23:57,478 - __main__ - INFO -    - Case sensitivity
+2025-09-20 20:23:57,478 - __main__ - INFO -    - Special characters
+2025-09-20 20:23:57,536 - __main__ - INFO - Supabase Auth failed for aryavartboi@gmail.com, trying User table
+2025-09-20 20:23:57,613 - __main__ - INFO - 🔍 DEBUG: Total users in 'Users' table: 0
+2025-09-20 20:23:57,716 - __main__ - INFO - 🔍 Searching for email: 'aryavartboi@gmail.com'
+2025-09-20 20:23:57,716 - __main__ - INFO -    Query URL: https://vavnvybkayszsnwgzcku.supabase.co/rest/v1/Users
+2025-09-20 20:23:57,716 - __main__ - INFO -    Query params: {'email': 'eq.aryavartboi@gmail.com', 'select': '*'}
+2025-09-20 20:23:57,716 - __main__ - INFO -    Response status: 200
+2025-09-20 20:23:57,716 - __main__ - INFO -    Found 0 matching users
+2025-09-20 20:23:57,716 - __main__ - WARNING - ❌ No user found with EXACT email: 'aryavartboi@gmail.com'
+2025-09-20 20:23:57,716 - __main__ - INFO - 💡 Check for:
+2025-09-20 20:23:57,716 - __main__ - INFO -    - Extra spaces in email
+2025-09-20 20:23:57,726 - __main__ - INFO -    - Case sensitivity
+2025-09-20 20:23:57,726 - __main__ - INFO -    - Special characters
+2025-09-20 20:24:10,371 - __main__ - INFO - Supabase Auth failed for aryavartboi@gmail.com, trying User table
+2025-09-20 20:24:10,444 - __main__ - INFO - 🔍 DEBUG: Total users in 'Users' table: 0
+2025-09-20 20:24:10,519 - __main__ - INFO - 🔍 Searching for email: 'aryavartboi@gmail.com'
+2025-09-20 20:24:10,520 - __main__ - INFO -    Query URL: https://vavnvybkayszsnwgzcku.supabase.co/rest/v1/Users
+2025-09-20 20:24:10,520 - __main__ - INFO -    Query params: {'email': 'eq.aryavartboi@gmail.com', 'select': '*'}
+2025-09-20 20:24:10,520 - __main__ - INFO -    Response status: 200
+2025-09-20 20:24:10,520 - __main__ - INFO -    Found 0 matching users
+2025-09-20 20:24:10,520 - __main__ - WARNING - ❌ No user found with EXACT email: 'aryavartboi@gmail.com'
+2025-09-20 20:24:10,520 - __main__ - INFO - 💡 Check for:
+2025-09-20 20:24:10,520 - __main__ - INFO -    - Extra spaces in email
+2025-09-20 20:24:10,520 - __main__ - INFO -    - Case sensitivity
+2025-09-20 20:24:10,520 - __main__ - INFO -    - Special characters
+2025-09-20 20:24:10,715 - __main__ - INFO - Supabase Auth failed for aryavartboi@gmail.com, trying User table
+2025-09-20 20:24:10,813 - __main__ - INFO - 🔍 DEBUG: Total users in 'Users' table: 0
+2025-09-20 20:24:10,905 - __main__ - INFO - 🔍 Searching for email: 'aryavartboi@gmail.com'
+2025-09-20 20:24:10,905 - __main__ - INFO -    Query URL: https://vavnvybkayszsnwgzcku.supabase.co/rest/v1/Users
+2025-09-20 20:24:10,905 - __main__ - INFO -    Query params: {'email': 'eq.aryavartboi@gmail.com', 'select': '*'}
+2025-09-20 20:24:10,905 - __main__ - INFO -    Response status: 200
+2025-09-20 20:24:10,905 - __main__ - INFO -    Found 0 matching users
+2025-09-20 20:24:10,906 - __main__ - WARNING - ❌ No user found with EXACT email: 'aryavartboi@gmail.com'
+2025-09-20 20:24:10,906 - __main__ - INFO - 💡 Check for:
+2025-09-20 20:24:10,906 - __main__ - INFO -    - Extra spaces in email
+2025-09-20 20:24:10,906 - __main__ - INFO -    - Case sensitivity
+2025-09-20 20:24:10,906 - __main__ - INFO -    - Special characters
+2025-09-20 20:25:48,478 - __main__ - INFO - User signed in via Supabase Auth: aryavartboi@gmail.com
+2025-09-20 20:25:48,484 - __main__ - INFO - Session saved successfully
+2025-09-20 20:25:48,711 - __main__ - INFO - User signed in via Supabase Auth: aryavartboi@gmail.com
+2025-09-20 20:25:48,715 - __main__ - INFO - Session saved successfully
+2025-09-20 20:37:15,111 - __main__ - INFO - User signed in via Supabase Auth: nouse0903@gmail.com
+2025-09-20 20:37:15,114 - __main__ - INFO - Session saved successfully
+2025-09-20 20:38:14,997 - __main__ - INFO - Supabase Auth failed for noouse0903@gmail.com, trying User table
+2025-09-20 20:38:15,252 - __main__ - INFO - 🔍 Searching for email: 'noouse0903@gmail.com'
+2025-09-20 20:38:15,252 - __main__ - INFO -    Query URL: https://ajqmxtjlxplnbofwoxtf.supabase.co/rest/v1/Users
+2025-09-20 20:38:15,252 - __main__ - INFO -    Query params: {'email': 'eq.noouse0903@gmail.com', 'select': '*'}
+2025-09-20 20:38:15,253 - __main__ - INFO -    Response status: 404
+2025-09-20 20:38:15,253 - __main__ - ERROR - ❌ Query failed: 404 - {"code":"PGRST205","details":null,"hint":null,"message":"Could not find the table 'public.Users' in the schema cache"}
+2025-09-20 20:38:22,739 - __main__ - INFO - Supabase Auth failed for noouse0903@gmail.com, trying User table
+2025-09-20 20:38:22,912 - __main__ - INFO - 🔍 Searching for email: 'noouse0903@gmail.com'
+2025-09-20 20:38:22,913 - __main__ - INFO -    Query URL: https://ajqmxtjlxplnbofwoxtf.supabase.co/rest/v1/Users
+2025-09-20 20:38:22,913 - __main__ - INFO -    Query params: {'email': 'eq.noouse0903@gmail.com', 'select': '*'}
+2025-09-20 20:38:22,913 - __main__ - INFO -    Response status: 404
+2025-09-20 20:38:22,913 - __main__ - ERROR - ❌ Query failed: 404 - {"code":"PGRST205","details":null,"hint":null,"message":"Could not find the table 'public.Users' in the schema cache"}
+2025-09-20 20:38:36,461 - __main__ - INFO - User signed in via Supabase Auth: nouse0903@gmail.com
+2025-09-20 20:38:36,465 - __main__ - INFO - Session saved successfully
+2025-09-20 20:39:21,077 - __main__ - INFO - User signed in via Supabase Auth: nouse0903@gmail.com
+2025-09-20 20:39:21,082 - __main__ - INFO - Session saved successfully
+2025-09-21 10:52:10,032 - __main__ - INFO - User signed in via Supabase Auth: nouse0903@gmail.com
+2025-09-21 10:52:10,037 - __main__ - INFO - Session saved successfully
+2025-09-21 13:37:02,946 - __main__ - INFO - User signed in via Supabase Auth: nouse0903@gmail.com
+2025-09-21 13:37:02,951 - __main__ - INFO - Session saved successfully
+2025-09-21 13:37:06,747 - __main__ - INFO - User signed out
+2025-09-21 13:37:06,747 - __main__ - INFO - Session cleared
+2025-09-21 13:37:06,747 - __main__ - INFO - User logged out
+2025-09-21 13:55:09,901 - __main__ - INFO - User signed in via Supabase Auth: nouse0903@gmail.com
+2025-09-21 13:55:09,907 - __main__ - INFO - Session saved successfully
+2025-09-21 14:03:46,284 - __main__ - INFO - User signed in via Supabase Auth: nouse0903@gmail.com
+2025-09-21 14:03:46,290 - __main__ - INFO - Session saved successfully
+2025-09-21 14:04:38,636 - __main__ - INFO - Supabase Auth failed for no@gmail.com, trying User table
+2025-09-21 14:04:38,777 - __main__ - INFO - Searching for email: 'no@gmail.com'
+2025-09-21 14:04:38,777 - __main__ - INFO - Response status: 404
+2025-09-21 14:04:38,777 - __main__ - ERROR - Query failed: 404 - {"code":"PGRST205","details":null,"hint":null,"message":"Could not find the table 'public.Users' in the schema cache"}
+2025-09-21 14:04:41,923 - __main__ - INFO - Supabase Auth failed for no@gmail.com, trying User table
+2025-09-21 14:04:42,039 - __main__ - INFO - Searching for email: 'no@gmail.com'
+2025-09-21 14:04:42,039 - __main__ - INFO - Response status: 404
+2025-09-21 14:04:42,039 - __main__ - ERROR - Query failed: 404 - {"code":"PGRST205","details":null,"hint":null,"message":"Could not find the table 'public.Users' in the schema cache"}
+2025-09-21 14:44:37,939 - __main__ - INFO - Supabase Auth failed for nouser0903@gmail.com, trying User table
+2025-09-21 14:44:38,110 - __main__ - INFO - Searching for email: 'nouser0903@gmail.com'
+2025-09-21 14:44:38,110 - __main__ - INFO - Response status: 404
+2025-09-21 14:44:38,110 - __main__ - ERROR - Query failed: 404 - {"code":"PGRST205","details":null,"hint":null,"message":"Could not find the table 'public.Users' in the schema cache"}
+2025-09-21 14:44:51,614 - __main__ - INFO - Supabase Auth failed for nouser0903@gmail.com, trying User table
+2025-09-21 14:44:51,731 - __main__ - INFO - Searching for email: 'nouser0903@gmail.com'
+2025-09-21 14:44:51,731 - __main__ - INFO - Response status: 404
+2025-09-21 14:44:51,731 - __main__ - ERROR - Query failed: 404 - {"code":"PGRST205","details":null,"hint":null,"message":"Could not find the table 'public.Users' in the schema cache"}
+2025-09-21 14:45:00,216 - __main__ - INFO - User signed in via Supabase Auth: nouse0903@gmail.com
+2025-09-21 14:45:00,219 - __main__ - INFO - Session saved successfully
+2025-09-21 16:24:54,216 - __main__ - INFO - User signed in via Supabase Auth: nouse0903@gmail.com
+2025-09-21 16:24:54,247 - __main__ - INFO - Session saved successfully
+2025-09-21 19:29:47,332 - __main__ - INFO - User signed in via Supabase Auth: nouse0903@gmail.com
+2025-09-21 19:29:47,362 - __main__ - INFO - Session saved successfully
+2025-09-21 19:34:42,338 - __main__ - INFO - User signed in via Supabase Auth: nouse0903@gmail.com
+2025-09-21 19:34:42,369 - __main__ - INFO - Session saved successfully
+2025-09-21 19:34:42,440 - __main__ - INFO - User signed in via Supabase Auth: nouse0903@gmail.com
+2025-09-21 19:34:42,447 - __main__ - INFO - Session saved successfully
+2025-09-21 19:48:02,398 - __main__ - INFO - Supabase Auth failed for nouser0903@gmail.com, trying User table
+2025-09-21 19:48:02,704 - __main__ - INFO - Searching for email: 'nouser0903@gmail.com'
+2025-09-21 19:48:02,704 - __main__ - INFO - Response status: 404
+2025-09-21 19:48:02,704 - __main__ - ERROR - Query failed: 404 - {"code":"PGRST205","details":null,"hint":null,"message":"Could not find the table 'public.Users' in the schema cache"}
+2025-09-21 19:48:12,832 - __main__ - INFO - User signed in via Supabase Auth: nouse0903@gmail.com
+2025-09-21 19:48:12,833 - __main__ - INFO - Real access token captured: eyJhbGciOiJIUzI1NiIs...
+2025-09-21 19:48:12,843 - __main__ - INFO - Session saved successfully
+2025-09-21 19:48:13,346 - __main__ - INFO - Real access token set in environment: eyJhbGciOiJIUzI1NiIs...
+2025-09-21 19:48:13,346 - __main__ - INFO - Token type: Supabase Auth
+2025-09-21 20:16:16,199 - __main__ - INFO - User signed in via Supabase Auth: nouse0903@gmail.com
+2025-09-21 20:16:16,202 - __main__ - INFO - Real access token captured: eyJhbGciOiJIUzI1NiIs...
+2025-09-21 20:16:16,210 - __main__ - INFO - Session saved successfully
+2025-09-21 20:16:16,712 - __main__ - INFO - Real access token set in environment: eyJhbGciOiJIUzI1NiIs...
+2025-09-21 20:16:16,713 - __main__ - INFO - Token type: Supabase Auth
+2025-09-21 21:09:53,450 - __main__ - INFO - User signed in via Supabase Auth: nouse0903@gmail.com
+2025-09-21 21:09:53,452 - __main__ - INFO - Real access token captured: eyJhbGciOiJIUzI1NiIs...
+2025-09-21 21:09:53,460 - __main__ - INFO - Session saved successfully
+2025-09-21 21:09:53,961 - __main__ - INFO - Real access token set in environment: eyJhbGciOiJIUzI1NiIs...
+2025-09-21 21:09:53,961 - __main__ - INFO - Token type: Supabase Auth
+2025-09-21 21:25:00,150 - __main__ - INFO - User signed in via Supabase Auth: nouse0903@gmail.com
+2025-09-21 21:25:00,176 - __main__ - INFO - Real access token captured: eyJhbGciOiJIUzI1NiIs...
+2025-09-21 21:25:00,181 - __main__ - INFO - Session saved successfully
+2025-09-21 21:25:00,682 - __main__ - INFO - Real access token set in environment: eyJhbGciOiJIUzI1NiIs...
+2025-09-21 21:25:00,683 - __main__ - INFO - Token type: Supabase Auth
+2025-09-21 21:29:55,419 - __main__ - INFO - User signed in via Supabase Auth: nouse0903@gmail.com
+2025-09-21 21:29:55,445 - __main__ - INFO - Real access token captured: eyJhbGciOiJIUzI1NiIs...
+2025-09-21 21:29:55,449 - __main__ - INFO - Session saved successfully
+2025-09-21 21:29:55,950 - __main__ - INFO - Real access token set in environment: eyJhbGciOiJIUzI1NiIs...
+2025-09-21 21:29:55,951 - __main__ - INFO - Token type: Supabase Auth
+2025-09-21 22:03:59,596 - __main__ - INFO - User signed in via Supabase Auth: nouse0903@gmail.com
+2025-09-21 22:03:59,604 - __main__ - INFO - Session saved successfully
+2025-09-21 23:12:48,653 - __main__ - INFO - User signed in via Supabase Auth: nouse0903@gmail.com
+2025-09-21 23:12:48,658 - __main__ - INFO - Session saved successfully
+2025-09-21 23:15:01,427 - __main__ - INFO - User signed in via Supabase Auth: nouse0903@gmail.com
+2025-09-21 23:15:01,430 - __main__ - INFO - Session saved successfully
+2025-10-04 10:39:59,849 - __main__ - INFO - Session cleared
+2025-10-04 10:40:30,322 - __main__ - INFO - User signed in via Supabase Auth: nouse0903@gmail.com
+2025-10-04 10:40:30,324 - __main__ - INFO - Session saved successfully
+2025-10-04 11:33:47,702 - __main__ - INFO - User signed in via Supabase Auth: nouse0903@gmail.com
+2025-10-04 11:33:47,705 - __main__ - INFO - Session saved successfully
+2025-10-04 11:36:29,095 - __main__ - INFO - User signed in via Supabase Auth: nouse0903@gmail.com
+2025-10-04 11:36:29,098 - __main__ - INFO - Session saved successfully
